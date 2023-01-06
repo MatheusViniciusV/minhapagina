@@ -11,8 +11,10 @@ body {
 }
 
 button {
-  position: relative;
-  display: inline-block;
+  float: right;
+  position: absolute;
+  bottom: 2em;
+  right: 3em;
   cursor: pointer;
   outline: none;
   border: 0;
@@ -23,6 +25,7 @@ button {
   font-size: inherit;
   font-family: inherit;
 }
+
 button.learn-more {
   width: 12rem;
   height: auto;
