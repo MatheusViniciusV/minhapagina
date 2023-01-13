@@ -1,3 +1,4 @@
+/*Estilizações gerais*/
 html {
     margin: 0;
     overflow-x: hidden;
@@ -19,6 +20,7 @@ img {
     max-width: 100vw;
 }
 
+/*Estilizações de objetos particulares*/
 #titulo-principal {
     margin-left: 5vw;
     position: absolute;
@@ -36,4 +38,54 @@ img {
     font-size: 2.5vw;
     margin-top: 0.5em;
     color: #57ffdc;
+}
+
+#sobre {
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 4vw;
+    margin-top: 2em;
+    margin-right: 2em;
+    text-align: right;
+}
+
+#artigos {
+    display: flex;
+}
+
+article {
+    width: 25%;
+    margin: 4.16%;
+}
+
+article > h2 {
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 2.5vw;
+    color: #57ffdc;
+}
+
+article > p {
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 2vw;
+}
+
+#lines3 {
+    position: relative;
+    padding-top: 23.2%;
+}
+
+#interesse {
+    position: absolute;
+    z-index: 10;
+    margin-left: 2.5%;
+}
+
+#interesse > h1 {
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 5vw;
+    color: #57ffdc;
+}
+
+#interesse > p {
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 1.75vw;
 }
